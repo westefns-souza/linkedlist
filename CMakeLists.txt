@@ -1,0 +1,12 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.6)
+PROJECT(atividade)
+
+SET(CMAKE_CXX_STANDARD 11)
+
+INCLUDE_DIRECTORIES(include/)
+
+ADD_EXECUTABLE(
+    prog
+
+    src/main.cpp
+)
